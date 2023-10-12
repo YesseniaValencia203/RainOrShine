@@ -30,3 +30,10 @@ This was the last feature added to this app, and it was tedius to find an effici
 # Testing
 Units tests for successful and unsuccessful API calls.Mocked responses using json file using TestNetworkManager.
 
+# Screenshots
+![simulator_screenshot_1FD102B8-3EBD-4802-9C5E-EC011E3FA79C](https://github.com/YesseniaValencia203/RainOrShine/assets/45724970/cc36c11e-664c-42f9-ae0f-dd7ee6d755b8)
+
+![simulator_screenshot_B9BD6206-3927-47D2-A6EB-AEC2001AB9F0](https://github.com/YesseniaValencia203/RainOrShine/assets/45724970/e46861ff-2667-4966-99e6-33b0e21e71fa)
+
+![simulator_screenshot_EC4AEA10-60A7-4E75-BC4F-E5E08CC8C3E4](https://github.com/YesseniaValencia203/RainOrShine/assets/45724970/4a009c9a-eca8-45c1-8946-c34862c87356)
+
