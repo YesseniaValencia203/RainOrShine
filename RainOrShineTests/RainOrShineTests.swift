@@ -2,7 +2,7 @@
 //  RainOrShineTests.swift
 //  RainOrShineTests
 //
-//  Created by Consultant on 10/10/23.
+//  Created by Yessenia Valencia-Juarez on 10/10/23.
 //
 
 import XCTest

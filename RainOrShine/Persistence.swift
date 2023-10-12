@@ -2,9 +2,8 @@
 //  Persistence.swift
 //  RainOrShine
 //
-//  Created by Consultant on 10/10/23.
+//  Created by Yessenia Valencia-Juarez on 10/10/23.
 //
-
 import CoreData
 
 struct PersistenceController {
@@ -54,3 +53,4 @@ struct PersistenceController {
         container.viewContext.automaticallyMergesChangesFromParent = true
     }
 }
+
