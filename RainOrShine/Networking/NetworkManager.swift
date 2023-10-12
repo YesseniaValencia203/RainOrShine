@@ -13,13 +13,7 @@ protocol NetworkManaging {
 }
 class NetworkManager: NetworkManaging {
     func getWeatherData(url: URL) async throws -> Data {
-        do {
-            print(url)
-            let (data, _) = try await URLSession.shared.data(from: url)
-            print(data)
-            return data
-        } catch {
-            throw error
-        }
+        let (data, _) = try await URLSession.shared.data(from: url)
+        return data
     }
 }

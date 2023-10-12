@@ -31,7 +31,7 @@ struct ContentView: View {
                 Button {
                     refreshScreenWithCity(cityString: searchText)
                 } label: {
-                    Label("Search City", systemImage: "check")
+                    Label("Search City", systemImage: "plus")
                 }
 
             }

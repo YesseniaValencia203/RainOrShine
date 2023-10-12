@@ -14,14 +14,14 @@ protocol WeatherObservable {
     func getWeatherIconData(iconEndpoint: String) async  -> UIImage
 }
 @MainActor
-class WeatherViewModel: ObservableObject {
+final class WeatherViewModel: ObservableObject {
     @Published var currentWeatherInformation: CurrentWeatherInfo?
     @Published var currentWeatherForecastInformation: CurrentWeatherForecastData?
     @Published var currentWeatherForecast: [ForecastInfo]?
     @Published var currentWeatherIcon: UIImage?
     @Published var apiError: APIError?
     
-    var networkManager: NetworkManaging
+    private let networkManager: NetworkManaging
     init(networkManager: NetworkManaging) {
         self.networkManager = networkManager
     }
@@ -46,7 +46,7 @@ extension WeatherViewModel: WeatherObservable {
         }
         
     }
-    public func getWeatherIconData(iconEndpoint: String) async  -> UIImage {
+    func getWeatherIconData(iconEndpoint: String) async  -> UIImage {
         var icon = UIImage(systemName: "cloud")!
         guard let imageURL = URL(string: iconEndpoint) else { return icon }
         do {
